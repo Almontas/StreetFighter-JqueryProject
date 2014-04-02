@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
 
    $('.ryu').mousedown(function() {
-    // play hadouken sound
+    	playHadouken ();
 	    $('.ryu-ready').hide();
 	    $('.ryu-throwing').show();
 	    $('.hadouken').show()
@@ -22,6 +22,7 @@ $(document).ready(function() {
 		    $(this).hide();
 		    $(this).css('left', '-212px');
 		  }
+		
 		);
   })
 
