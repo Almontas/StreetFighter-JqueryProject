@@ -34,7 +34,7 @@ $(document).ready(function() {
   	}
   	else{
 
-  		
+  		 $('.ryu-ready').show();
   	}
 
 
