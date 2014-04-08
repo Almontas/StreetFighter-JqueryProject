@@ -3,11 +3,33 @@ body {
 }
 
 .main {
+  background-image: url('../images/StreetFighterBackground.jpg');
   background-color: white;
+  background-repeat: no-repeat;
   margin-top: 110px;
   padding-left: 100px;
   min-width: 1200px;
   height: 500px;
+}
+
+.instruct{
+
+	float: right;
+	border-style: solid;
+	border-color: red;
+	border-width: thick;
+	padding: 1em;
+	margin-right: 2em;
+	margin-top: 8em;
+	font-weight: bolder;
+	background-color: red;
+
+}
+
+.instruct li{
+	color: white;
+	font-size: 2em;
+	line-height: 2em;
 }
 
 .ryu{
@@ -56,6 +78,3 @@ body {
   float: left;
 }
 
-* {
-  outline: red 1px solid;
-}
